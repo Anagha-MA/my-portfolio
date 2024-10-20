@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ANAGHA M A - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section (Add a brief introduction about yourself here) -->
+  <section id="home">
+    <h1>Hello, I'm ANAGHA M A</h1>
+    <!-- Replace 'your-' with your actual image file name -->
+    <img src="anagha-photo.jpg" alt="Your Photo" class="profile-photo">
+
+    <p>Welcome to my portfolio. I am a student at COCHIN UNIVERSITY OF SCIENCE AND TECHNOLOGY, KOCHI focused on Computer
+Science, with a keen interest in Programming, Software Development and a commitment to applying my
+knowledge to real-world challenges..</p>
+    <!-- You can add more brief introduction text about yourself here -->
+    <p>I love creating efficient solutions and exploring new technologies.</p>
+  </section>
+
+  <!-- About Section (Add more detailed information about yourself here) -->
+  <section id="about">
+    <h2>About Me</h2>
+    
+    <!-- List your skills -->
+    <ul>
+      <li>Skills: c, Python, Java, SQL, AI/ML, Web Development</li>
+      <li>Interests: Data Science, Software Engineering, Machine Learning</li>
+    </ul>
+    <!-- You can add more details about your education, hobbies, or experiences here -->
+    <p>In my free time, I enjoy reading about advancements in AI, learning new programming languages, and building side projects.</p>
+  </section>
+
+  <!-- Projects Section (Showcase your projects here) -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Veterinary Disease Prediction</h3>
+      <p>An AI-based model to predict veterinary diseases using image data. It leverages machine learning techniques for accurate predictions.</p>
+      <a href="https://github.com/your-repo/veterinary-disease-prediction">View Project</a>
+    </div>
+    <div class="project">
+      <h3>Road Traffic Severity Prediction</h3>
+      <p>Predicting the severity of road traffic accidents using machine learning models for safety and risk management.</p>
+      <a href="https://github.com/your-repo/road-traffic-severity">View Project</a>
+    </div>
+    <div class="project">
+      <h3>Chatbot Development with Watson Assistant</h3>
+      <p>A healthcare chatbot built using IBM Watson to provide medical support and answers to frequently asked health-related queries.</p>
+      <a href="https://github.com/your-repo/chatbot-development">View Project</a>
+    </div>
+    <!-- Add more projects here if necessary -->
+  </section>
+
+  <!-- Contact Section (Simple form to collect user details) -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" required></textarea>
+      
+      <button type="submit">Submit</button>
+    </form>
+    <p id="thank-you-message" style="display:none;">Thank you for reaching out!</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
